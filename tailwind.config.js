@@ -1,14 +1,22 @@
+import fluid, { extract, screens } from "fluid-tailwind";
+
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./src/**/*.{html,js,jsx}"],
+  content: {
+    files: ["./src/**/*.{html,js,jsx}"],
+    extract,
+  },
   theme: {
+    screens,
     extend: {
       colors: {
-        ralewayBold: "#141821", // Raleway Bold 20
-        robotoGray: "#989BA7", // Roboto 17
-        robotoWhite: "#FFFFFF", // Roboto Regular 14, Semibold Roboto 12
-        robotoMedium: "#414955", // Roboto Medium 14
-        backgroundGreen: "#00CD98", // Background (12%, 100%)
+        ralewayBold: "#141821",
+        robotoGray: "#989BA7",
+        robotoWhite: "#FFFFFF",
+        robotoMedium: "#414955",
+        backgroundGreen: "#00CD98",
+        backgroundTop: "hsl(167, 51%, 65%)",
+        backgroundBottom: "hsl(155, 26%, 60%)",
       },
       fontFamily: {
         roboto: ["roboto", "sans-serif"],
@@ -16,5 +24,5 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [fluid],
 };

@@ -4,8 +4,8 @@ import LowerCard from "./components/lower-card";
 function App() {
   return (
     <>
-      <div className="flex h-full min-h-screen flex-col justify-center bg-backgroundGreen p-6">
-        <main>
+      <div className="from-backgroundTop to-backgroundBottom flex h-full min-h-screen flex-col items-center justify-center bg-gradient-to-b p-6">
+        <main className="md:max-w-screen-md">
           <UpperCard />
           <LowerCard />
         </main>
