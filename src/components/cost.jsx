@@ -2,8 +2,9 @@ const Cost = () => {
   return (
     <>
       <div>
-        <span>
-          $1000 <span>/Month</span>
+        <span className="font-roboto rounded-lg bg-backgroundGreen bg-opacity-10 text-lg font-bold text-backgroundGreen">
+          $1000
+          <span className="text-base font-normal text-robotoGray">/ Month</span>
         </span>
       </div>
     </>

@@ -7,13 +7,13 @@ import HeartButton from "./heart-button";
 const LowerCard = () => {
   return (
     <>
-      <div>
-        <div>
-          <div>
+      <div className="flex flex-col gap-4 divide-y-2 bg-robotoWhite p-4">
+        <div className="flex flex-col gap-2">
+          <div className="flex justify-between">
             <Rating />
             <Cost />
           </div>
-          <div>
+          <div className="flex items-end justify-between">
             <Content />
             <HeartButton />
           </div>

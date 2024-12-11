@@ -13,5 +13,3 @@
 - Roboto Regular: 14px
 - Semibold Roboto: 12px
 - Roboto Medium: 14px
-
-

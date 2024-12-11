@@ -5,20 +5,22 @@ import boxIcon from "../Assets/icons/box.png";
 const Icons = () => {
   return (
     <>
-      <div>
-        <div>
-          <img src={bedIcon} />
-          <span></span>
+      <div className="flex items-center justify-between py-4 text-xs">
+        <div className="flex items-center gap-1 font-roboto font-medium text-ralewayBold">
+          <img className="w-4 object-contain" src={bedIcon} />
+          <span>4</span>
         </div>
-        <div>
-          <img src={bathIcon} />
-          <span></span>
+        <div className="flex items-center gap-1 font-roboto font-medium text-ralewayBold">
+          <img className="w-4 object-contain" src={bathIcon} />
+          <span>2</span>
         </div>
-        <div>
-          <img src={boxIcon} />
-          <span></span>
+        <div className="flex items-center gap-1 font-roboto font-medium text-ralewayBold">
+          <img className="w-4 object-contain" src={boxIcon} />
+          <span>6x7.5m²</span>
         </div>
-        <span>2 years lease Required</span>
+        <span className="font-roboto text-robotoGray">
+          2 years lease Required
+        </span>
       </div>
     </>
   );
