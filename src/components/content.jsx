@@ -10,7 +10,7 @@ const Content = () => {
           <h1 className="font-raleway text-xl font-bold text-ralewayBold">
             Cottage in New York
           </h1>
-          <p className="font-raleway text-lg font-medium leading-6 text-robotoGray">
+          <p className="font-raleway text-lg font-medium leading-6 text-robotoGray md:pb-4">
             2821 lake Sevilla, Palm Harbour, TX <br></br> New York, US
           </p>
         </div>
